@@ -8,6 +8,19 @@ The project is designed to demonstrate how basic machine learning logic, inspire
 
 ---
 
+## Problem Statement
+Spam emails are unwanted messages that can be misleading or harmful. The problem is to design a system that can automatically detect whether an email is spam or not based on its content.
+
+---
+
+##  Objectives
+- To develop a basic spam detection system  
+- To understand text preprocessing techniques  
+- To implement classification logic manually  
+- To avoid dependency on external libraries  
+- To demonstrate modular programming  
+
+---
 ##  Features
 - Accepts email text input from user  
 - Preprocesses text (lowercase, punctuation removal)  
@@ -47,41 +60,7 @@ The project is designed to demonstrate how basic machine learning logic, inspire
 
 ---
 
-## Problem Statement
-Spam emails are unwanted messages that can be misleading or harmful. The problem is to design a system that can automatically detect whether an email is spam or not based on its content.
 
----
-
-##  Objectives
-- To develop a basic spam detection system  
-- To understand text preprocessing techniques  
-- To implement classification logic manually  
-- To avoid dependency on external libraries  
-- To demonstrate modular programming  
-
----
-
-##  Functional Requirements
-- Accept email input from user  
-- Clean and preprocess text  
-- Store and analyze word frequencies  
-- Train a simple model using sample data  
-- Predict spam or ham classification  
-- Display result clearly  
-- Allow repeated user interaction  
-
----
-
-##  Non-Functional Requirements
-- **Performance:** Fast execution  
-- **Security:** No external data usage  
-- **Usability:** Simple interface  
-- **Reliability:** Consistent results  
-- **Scalability:** Can be extended with more data  
-- **Maintainability:** Modular code structure  
-- **Resource Efficiency:** Minimal memory usage  
-
----
 
 ## System Architecture Diagram
 User → Input Module → Preprocessing → Model Logic → Prediction → Output  
@@ -154,22 +133,7 @@ This dataset is used for demonstration purposes only.
 
 ---
 
-##  Model Selection Rationale
-A Naive Bayes-inspired approach is used because:
-- It is simple and easy to implement  
-- Works well for text classification problems  
-- Does not require complex computations  
-- Suitable for beginner-level understanding  
 
----
-
-## Evaluation Methodology
-- Manual testing with different inputs  
-- Checking correctness of predictions  
-- Comparing spam and ham scores  
-- Observing consistency in results  
-
----
 
 ##  Conclusion
 This project demonstrates how spam detection can be implemented using basic Python programming. It helps in understanding the fundamentals of text processing and classification without relying on advanced libraries.
